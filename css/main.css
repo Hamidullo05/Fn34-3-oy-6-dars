@@ -65,4 +65,16 @@
   font-size: 16px;
   font-weight: 400;
   color: #6B6B6C;
+}
+
+.lorem {
+  display: flex;
+  gap: 178px;
+}
+.lorem .sit .bloc {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #E9E9EC;
+  padding: 14px 18px;
 }/*# sourceMappingURL=main.css.map */

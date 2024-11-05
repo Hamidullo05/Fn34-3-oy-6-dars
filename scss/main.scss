@@ -72,3 +72,20 @@
 
     }
 }
+.lorem {
+    display: flex;
+    gap: 178px;
+    .sit {
+        display: none;
+        align-items: center;
+        .bloc {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background-color:  #E9E9EC;
+            padding: 14px 18px;
+            margin-bottom: ;
+        }
+    }
+}
+
