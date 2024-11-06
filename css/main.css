@@ -39,7 +39,6 @@
 
 .poisk {
   display: flex;
-  background-color: aqua;
   padding-top: 40px;
   padding-left: 80px;
   gap: 220px;
@@ -69,12 +68,31 @@
 
 .lorem {
   display: flex;
-  gap: 178px;
+  gap: 300px;
+  margin-top: 72.5px;
 }
-.lorem .sit .bloc {
+
+.ipsum {
+  margin-bottom: 64px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.ipsum .bloc {
   width: 80px;
   height: 80px;
-  border-radius: 50%;
   background-color: #E9E9EC;
+  border-radius: 50%;
   padding: 14px 18px;
+}
+.ipsum h2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #363738;
+  margin-bottom: 16px;
+}
+.ipsum .info {
+  font-size: 16px;
+  font-weight: 400;
+  color: #6B6B6C;
 }/*# sourceMappingURL=main.css.map */

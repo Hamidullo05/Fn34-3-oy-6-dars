@@ -11,12 +11,14 @@
     width: 100%;
     margin: 0 auto;
 }
+
 .dostavchik {
     display: flex ;
     margin-top: 109px;
     align-items: center;
     margin-bottom: 67px;
     gap: 80px;
+    
     .dos_text {
         h1 {
             font-size: 52px;
@@ -41,7 +43,7 @@
 }
 .poisk {
     display: flex;
-    background-color: aqua;
+    
     padding-top: 40px;
     padding-left: 80px;
     gap: 220px;
@@ -74,18 +76,32 @@
 }
 .lorem {
     display: flex;
-    gap: 178px;
-    .sit {
-        display: none;
-        align-items: center;
-        .bloc {
-            width: 80px;
-            height: 80px;
-            border-radius: 50%;
-            background-color:  #E9E9EC;
-            padding: 14px 18px;
-            margin-bottom: ;
-        }
+    gap: 300px;
+    margin-top: 72.5px;
+    
+}
+.ipsum {
+    margin-bottom: 64px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    .bloc {
+        width: 80px;
+        height: 80px;
+        background-color: #E9E9EC;
+        border-radius: 50%;
+        padding: 14px 18px;
+    }
+    h2 {
+        font-size: 20px;
+        font-weight: 600;
+        color:#363738;
+        margin-bottom: 16px;
+    }
+    .info {
+        font-size: 16px;
+        font-weight: 400;
+        color: #6B6B6C;
+        
     }
 }
-
